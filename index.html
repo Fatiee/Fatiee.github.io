@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>AJ's Shoes</title>
+<link rel="shortcut icon" href="shoe.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#flip1").click(function(){
+      $("#desc1").fadeIn("slow");
+    });
+  });
+  </script>
+<script>
+  $(document).ready(function(){
+    $("#flip2").click(function(){
+      $("#desc2").fadeIn("slow");
+    });
+  });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#flip3").click(function(){
+        $("#desc3").fadeIn("slow");
+      });
+    });
+    </script>
+<style> 
+    #flip1, #flip2, #flip3, #desc1, #desc2, #desc3{
+      padding: 5px;
+      text-align: center;
+      background-color: #e5eecc;
+      border: solid 1px #c3c3c3;
+    }
+      
+    #desc1, #desc2, #desc3 {
+      padding: 50px;
+      display: none;
+    }
+</style>
+</head>
+
+
+<body>
+<center>
+<h1>Home</h1>
+<hr color="black" size="5">
+</center>
+</body>
+
+</style>
+</head>
+<body>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f3f3f3;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="Calendar.html">Release Calendar</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="contactinfo.html">Contactinfo</a></li>
+    </ul>
+  </style>
+
+  <style>
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 300px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+  </style>
+
+<div class="gallery">
+<figure>
+  <img src="shoe.png" alt="Example Product" width="250px" >
+  <figcaption><div id="flip1">Click to see product desciption</div></figcaption>
+  <div id="desc1">
+    <p>Travis Scott Jordan 1 High</p>
+    <p>Released in 2019 in collaboration with Travis Scott</p>
+    <p>Estimated value:$1500-$2500</p>
+ </div>
+</figure>
+</div>
+
+<div class="gallery">
+  <figure>
+    <img src="unc.jpg" alt="Example Product" width="250px" >
+    <figcaption><div id="flip2"> Click to see product desciption</div></figcaption>
+    <div id="desc2">
+      <p>Nike Air Jordan 1 University Blue</p> 
+      <p>Released in 2021</p>
+      <p>Estimated value:$400-$500</p>
+    </div>
+  </figure>
+  </div>
+
+  <div class="gallery">
+    <figure>
+      <img src="yeezy.jpg" alt="Example Product" width="250px" >
+      <figcaption><div id="flip3"> Click to see product desciption</div></figcaption>
+      <div id="desc3">
+        <p>Adidas Yeezy Boost 350 "Bred"</p> 
+        <p>Released in 2017, re-released in 2020</p>
+        <p>Estimated value:$400-$600</p>
+      </div>
+    </figure>
+    </div>
+
+<p style="position: fixed; bottom: 0; width:100%; text-align: center">&#169;AJ's Shoes. All Rights Reserved</p>
+
+</body>
+</html>

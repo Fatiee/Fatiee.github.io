@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>AJ's Shoes</title>
+<link rel="shortcut icon" href="shoe.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#content").slideDown("slow");
+    });
+  });
+  </script>
+  <style> 
+    #content, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: #e5eecc;
+      border: solid 1px #c3c3c3;
+    }
+    
+    #content {
+      padding: 50px;
+      display: none;
+    }
+    </style>
+</head>
+
+<body>
+<center>
+<h1>Release Calendar</h1>
+<hr color="black" size="5">
+</center>
+
+<style>
+div.content {
+  margin-left: 0px;
+  padding: 1px 16px;
+}
+
+
+</style>
+</head>
+<body>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f3f3f3;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="Calendar.html">Release Calendar</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="contactinfo.html">Contactinfo</a></li>
+    </ul>
+  </style>
+
+
+  <div id="flip">Click to see the May release calendar</div>
+
+<div id="content">
+<figure>
+  <img id="calendarpic" src="calendar.png" border="5px solid black">
+  <figcaption>May Release Calendar</figcaption>
+</figure>
+</div>
+
+<p style="position: fixed; bottom: 0; width:100%; text-align: center">&#169;AJ's Shoes. All Rights Reserved</p>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+body { color: black;
+background-color:#e5eecc;
+
+<style type="text/ccs">
+a:link , a:visited{
+color:red;
+}
+a:hover , a:active{
+text-decoration:underline;
+color:rgb(0, 13, 128);
+}
+</style>

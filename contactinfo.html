@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>AJ's Shoes</title>
+<link rel="shortcut icon" href="shoe.png">
+</head>
+<body>
+<center>
+<h1>Contact Information</h1>
+<hr color="black" size="5">
+</center>
+</body>
+
+<style>
+div.content {
+  margin-left: 0px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+</style>
+</head>
+<body>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f3f3f3;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="Calendar.html">Release Calendar</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="contactinfo.html">Contactinfo</a></li>
+    </ul>
+  </style>
+
+
+<div class="content">
+  <p>Andrew Robinson</p>
+  <p>1234 Main street, Richmond, VA, 23220</p>
+  <p>202-716-7311 robinsona8@vcu.edu</p>
+  
+<figure>
+  <img src="twitter.png" alt="twitter" style="width:100px">
+  <figcaption>Twitter @ajroobinson</figcaption>
+</figure>
+<b>Join Our Newsletter!</b>
+<form method="get">
+<br>Email: <input type="text" name="email" id="email">
+<br><input type="submit" value="Enter"> <input type="reset" value="Clear Form">
+</select>
+</div>
+<p style="position: fixed; bottom: 0; width:100%; text-align: center">&#169;AJ's Shoes. All Rights Reserved</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
+<div id="flip">Click to see Info on the upcoming game</div>
+<div id="panel">Coming soon!!!</div>
+
+</body>
+</html>
