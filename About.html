@@ -8,21 +8,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document).ready(function(){
-    $("#flip").click(function(){
-      $("#more").slideDown("slow");
+    $("#flip").hover(function(){
+      $("#more").fadeIn("fast");
     });
   });
   </script>
   <style> 
     #more, #flip {
       padding: 5px;
-      text-align: center;
+      text-align: centerleft;
       background-color: #e5eecc;
-      border: solid 1px #c3c3c3;
     }
     
     #more {
-      padding: 50px;
+      padding: 5px;
       display: none;
     }
     </style>
@@ -80,8 +79,8 @@ div.content {
 <div class="content">
 <p> I have been reselling sneakers and various other clothing items for three years and I wanted to create a platform that is easier for me than the typical 
  websites to sell things on.</p>
- <div id="flip">Click to Learn more about my store</div>
- <div id="more">At AJ's Shoes, you will find the cheapest prices on the market for all kinds of limited clothing items</div>
+ <div id="flip">Hover to Learn more about my store</div>
+ <div id="more">At AJ's Shoes, you will find the cheapest prices on the market for all kinds of limited clothing items. If you have any future product requests, please do not hesitate to email us at the adress in out contact us page!</div>
 </div>
 <p style="position: fixed; bottom: 0; width:100%; text-align: center">&#169;AJ's Shoes. All Rights Reserved</p>
 
